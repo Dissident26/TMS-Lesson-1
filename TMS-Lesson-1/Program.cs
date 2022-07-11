@@ -34,8 +34,6 @@ static void LogNumbersBetween()
     for (int i = beginningRangeNumber +1; i < endingRangeNumber; i++)
     {
         result += $"{i}, ";
-
-
     }
 
     Console.WriteLine("Числа между {0} и {1} => {2}", firstNumber, secondNumber, result);
